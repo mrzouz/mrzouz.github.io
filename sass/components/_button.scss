@@ -1,0 +1,90 @@
+//buttons
+
+.btn{
+    &:link, &:visited{
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1.5rem 4rem;
+        border-radius: 10rem;
+        display: inline-block;
+        transition: all .2s;
+        position: relative;
+        font-size: $def-font-size;
+    }
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba($color-black,.3);
+        &::after{
+            transform: scaleX(1.4) scaleY(1.7);
+            opacity:0;
+        }
+    }
+    &:active{
+        transform: translateY(-1px);
+        box-shadow: 0 .5rem 1rem rgba($color-black,.3);
+    }
+    &--white{
+        color: $color-grey-dark; 
+        background: $color-white;
+        &::after{
+            background: $color-white;
+        }
+        
+
+    }
+    &--blue{
+        color: $color-white; 
+        background: $color-primary;
+        &::after{
+            background: $color-primary;
+        }
+    }
+    &--animated{
+
+        animation: moveInBottom .5s ease-out .75s;
+        animation-fill-mode: backwards;
+        position: absolute;
+        bottom: 20rem;
+        left: 52.5rem;
+    }
+    &::after{
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top:0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }  
+}
+
+.btn-text{
+    &:link,
+    &:visited{
+        font-size: $def-font-size;
+        color: $color-primary;
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary;
+        padding-bottom: 3px;
+        transition: all .2s;
+        display: inline-block;
+        border-radius: 3px;
+        padding: 3px 5px;
+    }
+    &:hover{
+        color: $color-white;
+        background-color: $color-primary;
+        transform: translateY(-2px);
+        box-shadow: 0 1rem 2rem rgba($color-black,.15);
+    }
+    &:active{
+        transform: translateY(0);
+        box-shadow: 0 .5rem 1rem rgba($color-black,.15)
+        ;
+
+    }
+
+}

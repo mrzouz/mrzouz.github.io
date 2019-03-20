@@ -1,0 +1,89 @@
+
+*,*::after,*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    box-sizing: border-box;
+}
+
+//header
+.header{
+    height: 95vh;
+    background-image:linear-gradient(to bottom ,
+    $color-grad-header1,
+    $color-grad-header2),
+    url("/photos/Road.jpg");
+    background-size: cover;
+    background-position: bottom;
+    
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    position: relative;   
+    
+    &__text-box{
+       position: absolute;
+       top:47%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+    }
+}
+
+.quotes{
+    animation: moveInBottom 1s ease-out .2s;
+    animation-fill-mode: backwards;
+}
+.quote{
+    position: absolute;
+    bottom: -12rem;
+    left:-12rem;
+    width: 87rem;
+    
+}
+
+// intro
+.intro{
+    margin-top: -8rem;
+    padding: 16rem 0;
+    background-color: $color-grey-light-1;
+}
+.assay{
+    font-size: 1.8rem;
+    margin: 2rem 25rem;
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
+hr.short{
+    margin: 0 42rem;
+    border: .75px solid $color-ter-light;
+}
+
+// toggle
+.dynamic{
+    height: 90vh;
+    
+    background-size: cover;
+    background-position: top;
+    
+    position: relative;   
+}
+.large-text{
+  
+        display: inline-block;
+        position: relative;
+        top:-6.8rem;
+        left:27rem;
+        text-align: center;
+}
+
+//about
+.section-about{
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 2rem;
+    margin-top: -22vh;
+}
