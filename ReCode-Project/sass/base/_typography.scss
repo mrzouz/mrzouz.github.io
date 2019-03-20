@@ -1,0 +1,100 @@
+
+body{
+    padding: 3rem;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-grey-dark; 
+}
+.heading-primary{
+    color: $color-white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+    &--main{
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        animation: moveInLeft 1s .2s ease-in-out;
+    }
+    &--sub{
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.35rem;
+        animation: moveInRight 1s .2s ease-in-out;
+    }
+}
+.heading-secondary{
+    text-transform: uppercase;
+    font-size: 3.5rem ;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    transition: all .2s;
+
+    &:hover{
+        transform: skew(15deg, 2deg) scale(1.1);
+        letter-spacing: 2px ;
+        text-shadow: 0 .5rem 1rem rgba($color-black,0.2);
+    }
+    }
+    .heading-tertiary{
+        text-transform: uppercase;
+        font-size: $def-font-size;
+        font-weight: 700;
+
+    }
+    .paragraph{
+        font-size: $def-font-size;
+
+        &:not(:last-child){
+            margin-bottom: 3rem;
+        }
+    }
+
+.quote{
+text-align: left;
+    font-family: 'Montez', cursive;
+    color:$color-black;
+    font-size: 5rem;
+    &-by{
+        font-family: 'Raleway', sans-serif;
+        font-size: 2rem;
+        color: $color-ter-light;
+        letter-spacing: 1rem;
+    }
+}
+
+.large-text{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        color: $color-ter-dark;
+		text-align: center;
+}
+
+.classic-quote{
+    font-family: 'Oswald',  cursive;
+    color: $color-ter-light;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.timer{
+    font-family: 'Lato' , sans-serif;
+    font-size: 6rem;
+    color: #FFD344;
+    text-align: center;
+    // to stop text from moving when numbers change, needs open font to work.
+    font-variant-numeric: tabular-nums;
+}
+
+.feature-box{
+font-size: 1.5rem;
+    text-align: center;
+}

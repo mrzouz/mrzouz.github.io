@@ -1,0 +1,44 @@
+Small text          font-family: 'Roboto' , sans-serif;
+Big Text:          font-family: 'Montserrat' , sans-serif;
+Quotes:               font-family: 'Montez' , cursive;   
+CAPITAL HEADERS:     font-family: 'Raleway' , sans-serif;
+Headers:             font-family: 'Oswald' , sans-serif;
+
+
+change this site color theme:
+This Photo is Dynamic and will change according to the time of the day.
+
+[make different classes and change them in JS.]
+
+
+{Capital in rectangle white}
+The journey of a thousand miles begins with one step.
+Lao Tzu
+
+and my amazing journey in web development started with Recode. I was one of those lucky enough to attend their weekend workshop, this ignited a spark and eager to
+ continue this new path that I became fond of. their team was inspiring and focused on helping us the refugees in Malaysia to see the new opportunities available
+ as web developers.
+As this was my introduction to the web development world, I didn't want to stop and seeked online courses to learn more and during those few months Recode team kept 
+in touch and their guidance and help was simply amazing.  
+
+while this website serves the purpose of an application to the Bootcamp provided by Recode,this page is to show myself how much I learned and a reminder 
+to my future-self how much I was missing still. 
+
+
+
+Quote:
+Discipline is the bridge between goals and accomplishment.
+
+
+a brief about me:
+I've developed a passion for technology and computers since in my teens however I didn't get the chance to study programming until recently. and while I was able to
+learn a little online about Python, I was missing the mentorship and guidance. also as a beginner I felt lost in this new world. now with Recode camp in  
+sight I feel the ambition and the will not only to learn web development as a side hobby but as a career choice. the feeling of accomplishment 
+is extraordinary, finding solutions to problems and watching your code runnign smoothly is something I got addicted to.
+I can't wait to start my 16 weeks of fun and learning.
+[ put timer to May]
+
+
+
+previous Java Script project: the pig game.
+
